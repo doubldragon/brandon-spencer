@@ -46,14 +46,17 @@ nav {
   float: left;
   background-color: #3487A4;
   text-transform: uppercase;
+  padding-right: 20px;
+  margin-right: 20px;
 
 }
 
-.Article {
+.article {
   display: inline-block;
   clear: left;
   position: relative;
   text-align: top;
+  
 }
 
 .top{
@@ -68,6 +71,7 @@ a:link, a:visited {
 
 p {
   font-size: 20px;
+  max-width: 50%;
   }
 
 h1, h2, p {
@@ -79,3 +83,4 @@ h1, h2, p {
 .img-circle {
   border-radius: 50%;
 }
+
