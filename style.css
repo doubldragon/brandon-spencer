@@ -1,6 +1,6 @@
 .navigation {
   box-sizing: border-box;
-  background-color: #3587A4;
+  
   overflow: auto;
   padding: 18px 50px;
   position: relative;
@@ -8,10 +8,15 @@
   width: 100%;
   z-index: 999;
 }
-
+header{
+  background-image: url('pictures/hustle-1.jpg');
+  background-position: right center;
+  background-size: 100%;
+  padding-top: 20px;
+}
 li {
   color: #FFF;
-  display: inline-block;
+  text-decoration: none;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -31,3 +36,34 @@ body {
   margin: 0;
   padding: 0;
 }
+
+nav {
+  color: white;
+  display: inline-block;
+  float: left;
+  background-color: #3487A4;
+  text-transform: uppercase;
+
+}
+
+.Article {
+  display: inline-block;
+  clear: left;
+  position: relative;
+  text-align: top;
+  padding: 200px;
+}
+
+.top{
+  display: inline-block;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+p{
+  padding: 20px 250px;
+}
+
