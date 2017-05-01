@@ -8,16 +8,19 @@
   width: 100%;
   z-index: 999;
 }
+
 header{
   background-image: url('pictures/hustle-1.jpg');
   background-position: right center;
   background-size: 100%;
   padding-top: 20px;
+  
+  font-size: 2em;
 }
 li {
   color: #FFF;
   text-decoration: none;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -32,7 +35,7 @@ ul {
 }
 
 body {
-  background: #EEE;
+  background: gray;
   margin: 0;
   padding: 0;
 }
@@ -51,7 +54,6 @@ nav {
   clear: left;
   position: relative;
   text-align: top;
-  padding: 200px;
 }
 
 .top{
@@ -63,7 +65,17 @@ a:link, a:visited {
   color: white;
 }
 
-p{
+
+p {
+  font-size: 20px;
+  }
+
+h1, h2, p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
   padding: 20px 250px;
 }
 
+.img-circle {
+  border-radius: 50%;
+}
