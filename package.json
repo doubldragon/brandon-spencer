@@ -1,0 +1,25 @@
+{
+  "name": "doubldragon.github.io",
+  "version": "1.0.0",
+  "description": "Brandon Spencer Bootcamp S17 - Week One 4/25/2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doubldragon/doubldragon.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doubldragon/doubldragon.github.io/issues"
+  },
+  "homepage": "https://github.com/doubldragon/doubldragon.github.io#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulpify": "^0.1.1"
+  }
+}
