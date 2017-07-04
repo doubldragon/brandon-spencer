@@ -91,7 +91,7 @@ section h2.section-heading {
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px; }
+  margin: 0 10px 15px; }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
@@ -138,5 +138,35 @@ section h2.section-heading {
       margin: 0;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+#portfolio {
+  background-image: url('app/img/squared_metal.png');
+  /*background-size: cover;*/
+  background-repeat: repeat;
+
+}
 #portfolio * {
   z-index: 2; }
+
+
+/*
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+}
+
+.overlay-content {
+  margin: auto;
+  color: white;
+}*/
