@@ -75,6 +75,10 @@ header.masthead .intro-text .intro-heading {
         margin-bottom: 40px;
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         text-transform: uppercase;
+        text-shadow: 0 3px  6px #000;
+        text-shadow: 0 -3px  6px #000;
+        text-shadow: 3px 0  6px #000;
+        text-shadow: -3px 0  6px #000;
     }
 }
 #mainNav {
@@ -83,7 +87,7 @@ header.masthead .intro-text .intro-heading {
 
 .fa-angle-double-down {
     position: absolute;
-    bottom: -20%;
+    bottom: 0%;
 }
 
 section h2.section-heading {
@@ -168,8 +172,34 @@ div.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
     text-align: center;
     visibility: hidden;
+    background-color: #8B9EB7;
 }
 
 .fa-stack {
   visibility: hidden;
+}
+
+.card-img-top {
+  border-top: 3px solid #606060;
+  border-left: 3px solid #606060;
+  border-right: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  margin: 4px;
+  
+}
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ccc;
 }

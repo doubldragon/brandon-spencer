@@ -58,6 +58,8 @@ $('a[href*="#"]')
     });
   });
 
+
+
   $(window).scroll(function() {
     $('.section-subheading').each(function(){
     var imagePos = $(this).offset().top;
