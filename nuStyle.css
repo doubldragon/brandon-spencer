@@ -16,6 +16,20 @@ header.masthead {
     background-size: cover;
 }
 
+header.contact-me {
+    text-align: center;
+    color: white;
+    background-image: url("app/img/contact.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 header.masthead .intro-text {
     padding-top: 70%;
     padding-bottom: 50px;
@@ -67,9 +81,9 @@ header.masthead .intro-text .intro-heading {
     background-color: transparent;
 }
 
-#downArrow {
-    position: fixed;
-    bottom:20px;
+.fa-angle-double-down {
+    position: absolute;
+    bottom: -20%;
 }
 
 section h2.section-heading {
@@ -147,7 +161,7 @@ section h2.section-heading {
   background-color: #6AD4DD;
 }
 #portfolio * {
-  z-index: 2; }
+  z-index: 3; }
 
 div.card {
     width: 250px;
