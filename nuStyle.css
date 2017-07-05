@@ -73,11 +73,13 @@ header.masthead .intro-text .intro-heading {
 }
 
 section h2.section-heading {
+    visibility: hidden;
     font-size: 40px;
     margin-top: 60px;
     margin-bottom: 15px; }
 
     section h3.section-subheading {
+      visibility: hidden;
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
@@ -139,34 +141,21 @@ section h2.section-heading {
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio {
-  background-image: url('app/img/squared_metal.png');
+  /*background-image: url('app/img/squared_metal.png');*/
   /*background-size: cover;*/
-  background-repeat: repeat;
-
+  /*background-repeat: repeat;*/
+  background-color: #6AD4DD;
 }
 #portfolio * {
   z-index: 2; }
 
-
-/*
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    text-align: center;
+    visibility: hidden;
 }
 
-.container:hover .overlay {
-  opacity: .8;
+.fa-stack {
+  visibility: hidden;
 }
-
-.overlay-content {
-  margin: auto;
-  color: white;
-}*/
