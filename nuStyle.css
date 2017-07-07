@@ -67,6 +67,7 @@ header.masthead .intro-text .intro-heading {
         line-height: 40px;
         margin-bottom: 25px;
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-shadow: 0 -1px  12px #004DB1;
     }
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
@@ -75,10 +76,10 @@ header.masthead .intro-text .intro-heading {
         margin-bottom: 40px;
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         text-transform: uppercase;
-        text-shadow: 0 3px  6px #000;
-        text-shadow: 0 -3px  6px #000;
-        text-shadow: 3px 0  6px #000;
-        text-shadow: -3px 0  6px #000;
+        text-shadow: 0 -1px  12px #004DB1;
+         /*0 -2px  6px #004DB1,
+         2px 0  6px #004DB1,
+         -2px 0  6px #004DB1;*/
     }
 }
 #mainNav {
@@ -88,6 +89,7 @@ header.masthead .intro-text .intro-heading {
 .fa-angle-double-down {
     position: absolute;
     bottom: 0%;
+    text-shadow: 0 -1px  12px #004DB1;
 }
 
 section h2.section-heading {
@@ -162,7 +164,7 @@ section h2.section-heading {
   /*background-image: url('app/img/squared_metal.png');*/
   /*background-size: cover;*/
   /*background-repeat: repeat;*/
-  background-color: #6AD4DD;
+  background-color: #004DB1;
 }
 #portfolio * {
   z-index: 3; }
@@ -175,8 +177,9 @@ div.card {
     background-color: #8B9EB7;
 }
 
-.fa-stack {
+.fa-stack, {
   visibility: hidden;
+  color: #004DB1;
 }
 
 .card-img-top {
@@ -187,6 +190,8 @@ div.card {
   margin: 4px;
   
 }
+
+
 a:link {
   text-decoration: none;
   color: #fff;
@@ -201,5 +206,22 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #ccc;
+  /*color: #ccc;*/
+  text-shadow: 0 -1px 30px #004DB1;
+}
+
+div.card-footer a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+div.card-footer a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+div.card-footer a:hover {
+  text-decoration: none;
+  color: #000;
+  text-shadow: 0 1px 6px #6AD4DD;
 }
