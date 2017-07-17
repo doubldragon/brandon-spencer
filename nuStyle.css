@@ -7,7 +7,7 @@ header.masthead {
     color: white;
     background-image: url("app/img/bg-background.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center center;
     height: 100%;
     -webkit-background-size: cover;
@@ -22,8 +22,7 @@ header.contact-me {
     background-image: url("app/img/contact.jpg");
     height: 100%;
     background-repeat: no-repeat;
-
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,6 +55,7 @@ header.masthead .intro-text .intro-heading {
 .social {
     margin: 30px;
 }
+
 @media (min-width: 768px) {
     header.masthead .intro-text {
         padding-top: 35%;
@@ -88,15 +88,10 @@ header.masthead .intro-text .intro-heading {
 
 .fa-angle-double-down {
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     text-shadow: 0 -1px  12px #004DB1;
 }
-#about {
-    background: #e3e3e3; /* Old browsers */
-  background: -moz-linear-gradient(top, #b2b2b2 0%, #fcfcfc 10%, #fcfcfc 95%, #b2b2b2 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #b2b2b2 0%,#fcfcfc 10%,#fcfcfc 95%,#b2b2b2 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #b2b2b2 0%,#fcfcfc 10%,#fcfcfc 95%,#b2b2b2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
+
 section h2.section-heading {
     visibility: hidden;
     font-size: 40px;
@@ -116,13 +111,6 @@ section h2.section-heading {
   margin: 15px 0;
   text-transform: none; }
 
-#portfolio h2.section-heading {
-  color: #fff;
-}
-
-#portfolio h3.section-subheading {
-  color: #fff;
-}
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 10px 15px; }
@@ -173,11 +161,10 @@ section h2.section-heading {
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio {
-  background-image: url('app/img/chemex.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  /*background-image: url('app/img/squared_metal.png');*/
+  /*background-size: cover;*/
   /*background-repeat: repeat;*/
-  /*background-color: #004DB1;*/
+  background-color: #004DB1;
 }
 #portfolio * {
   z-index: 3; }
@@ -187,12 +174,12 @@ div.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
     text-align: center;
     visibility: hidden;
-    
+    background-color: #8B9EB7;
 }
 
-.fa-stack {
+.fa-stack, {
   visibility: hidden;
-  color: #004DB9;
+  color: #004DB1;
 }
 
 .card-img-top {
@@ -217,14 +204,10 @@ a:visited {
   color: #fff;
 }
 
-header a:hover {
+a:hover {
   text-decoration: none;
   /*color: #ccc;*/
   text-shadow: 0 -1px 30px #004DB1;
-}
-
-div.card-footer {
-  background: none;
 }
 
 div.card-footer a:link {
@@ -240,66 +223,5 @@ div.card-footer a:visited {
 div.card-footer a:hover {
   text-decoration: none;
   color: #000;
-  text-shadow: 0 1px 6px #ccc;
+  text-shadow: 0 1px 6px #6AD4DD;
 }
-
-.metal {
-  position: relative;
-  margin: 40px auto;
-  outline: none;
-  
-  /*font: bold 6em/2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-  text-align: center;*/
-  color: hsla(0,0%,20%,1);
-  text-shadow: hsla(0,0%,40%,.5) 0 -1px 0, hsla(0,0%,100%,.6) 0 2px 1px;
-  
-  background-color: hsl(0,0%,90%);
-  box-shadow: inset hsla(0,0%,15%,  1) 0  0px 0px 4px, /* border */
-    inset hsla(0,0%,15%, .8) 0 -1px 5px 4px, /* soft SD */
-    inset hsla(0,0%,0%, .25) 0 -1px 0px 7px, /* bottom SD */
-    inset hsla(0,0%,100%,.7) 0  2px 1px 7px, /* top HL */
-    
-    hsla(0,0%, 0%,.15) 0 -5px 6px 4px, /* outer SD */
-    hsla(0,0%,100%,.5) 0  5px 6px 4px; /* outer HL */ 
-  
-  transition: color .2s;
-}
-
-.metal.linear {
-  /*width: 100px;*/
-  /*font-size: 4em;*/
-  /*height: 80px;*/
-  border-radius: .5em;
-  background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
-    -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
-    -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
-    
-    linear-gradient(180deg, hsl(0,0%,78%)  0%, 
-    hsl(0,0%,90%) 47%, 
-    hsl(0,0%,78%) 53%,
-    hsl(0,0%,70%)100%);
-}
-
-.badges {
-  background: #e3e3e3; /* Old browsers */
-  background: -moz-linear-gradient(top, #b2b2b2 0%, #fcfcfc 10%, #fcfcfc 90%, #b2b2b2 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #b2b2b2 0%,#fcfcfc 10%,#fcfcfc 90%,#b2b2b2 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #b2b2b2 0%,#fcfcfc 10%,#fcfcfc 90%,#b2b2b2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  min-height: 300px;
-  padding-top: 30px;
-}
-
-.devicon::before{
-  margin-top: 20px;
-}
-.devicon {
-  font-size: 70px;
-  color: #004DB9;
-  margin: 20px;
-
-}
-
-form {
-  margin-bottom: 0;
-}
-
