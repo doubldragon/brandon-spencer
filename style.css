@@ -8,6 +8,9 @@ header.masthead {
     background-image: url("app/img/bg-background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-position: center center;
+    -moz-background-position: center center;
+    -o-background-position: center center;
     background-position: center center;
     height: 100%;
     -webkit-background-size: cover;
@@ -32,7 +35,7 @@ header.contact-me {
 }
 
 header.masthead .intro-text {
-    padding-top: 70%;
+    padding-top: 10%;
     padding-bottom: 50px;
 }
 
