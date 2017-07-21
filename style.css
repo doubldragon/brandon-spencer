@@ -12,6 +12,8 @@ header.masthead {
     -moz-background-position: center center;
     -o-background-position: center center;
     background-position: center center;
+    
+    min-height: 600px;
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -61,8 +63,9 @@ header.masthead .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 35%;
+        padding-top: 20%;
         padding-bottom: 200px;
+        position: relative;
     }
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
@@ -89,9 +92,11 @@ header.masthead .intro-text .intro-heading {
     background-color: transparent;
 }
 
-.fa-angle-double-down {
+.downArrow {
     position: absolute;
     bottom: 0;
+    left: 48%;
+    margin: 0 auto;
     text-shadow: 0 -1px  12px #004DB1;
 }
 #about {
