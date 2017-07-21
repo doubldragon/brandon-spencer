@@ -7,7 +7,6 @@ header.masthead {
     color: white;
     background-image: url("app/img/bg-background.jpg");
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
     -webkit-background-position: center center;
     -moz-background-position: center center;
     -o-background-position: center center;
@@ -27,8 +26,6 @@ header.contact-me {
     background-image: url("app/img/contact.jpg");
     height: 100%;
     background-repeat: no-repeat;
-
-    /*background-attachment: scroll;*/
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,9 +80,6 @@ header.masthead .intro-text .intro-heading {
         font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         text-shadow: 0 -1px  12px #004DB1;
-         /*0 -2px  6px #004DB1,
-         2px 0  6px #004DB1,
-         -2px 0  6px #004DB1;*/
     }
 }
 #mainNav {
@@ -183,9 +177,7 @@ section h2.section-heading {
 #portfolio {
   background-image: url('app/img/chemex.jpg');
   background-size: cover;
-  /*background-attachment: fixed;*/
-  /*background-repeat: repeat;*/
-  /*background-color: #004DB1;*/
+  background-position: right center;
 }
 #portfolio * {
   z-index: 3; }
@@ -194,8 +186,11 @@ div.card {
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
     text-align: center;
-    visibility: hidden;
-    
+    visibility: hidden;    
+}
+
+div.card-deck {
+  margin-bottom: 30px;
 }
 
 .fa-stack {
@@ -256,8 +251,6 @@ div.card-footer a:hover {
   margin: 40px auto;
   outline: none;
   
-  /*font: bold 6em/2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-  text-align: center;*/
   color: hsla(0,0%,20%,1);
   text-shadow: hsla(0,0%,40%,.5) 0 -1px 0, hsla(0,0%,100%,.6) 0 2px 1px;
   
@@ -274,9 +267,6 @@ div.card-footer a:hover {
 }
 
 .metal.linear {
-  /*width: 100px;*/
-  /*font-size: 4em;*/
-  /*height: 80px;*/
   border-radius: .5em;
   background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
     -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
